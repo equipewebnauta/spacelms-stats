@@ -1,4 +1,4 @@
-
+<?php
 
 /**
  * Expor meta fields do WPLMS via REST API
@@ -1322,3 +1322,5 @@ function sso_check_login($request) {
     wp_redirect($callback_url);
     exit;
 }
+
+?>
