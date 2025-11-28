@@ -1,4 +1,23 @@
+
+
+
+
+
+
+//Corrige o bug de não realizar o download
+
+add_action('wp_footer', 'teste', 999);
+function teste() {
+?>
+<script>
+console.log('cheguei');
+</script>
 <?php
+}
+
+
+
+
 
 /**
  * Expor meta fields do WPLMS via REST API
@@ -1323,4 +1342,3 @@ function sso_check_login($request) {
     exit;
 }
 
-?>
