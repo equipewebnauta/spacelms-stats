@@ -4,14 +4,6 @@
 
 
 
-//Corrige o bug de não realizar o download
-
-add_action('wp_footer', 'teste');
-
-function teste() {
-    echo "<script>console.log('cheguei');</script>";
-}
-
 
 
 
